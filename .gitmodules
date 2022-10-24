@@ -1,0 +1,3 @@
+[submodule "Assets/Restricted"]
+	path = Assets/Restricted
+	url = https://github.com/RobbieWagner/FrostBiteKillerRestrictedFiles.git
