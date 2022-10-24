@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8026960382858019930}
   - component: {fileID: 8026960382858019928}
   m_Layer: 0
-  m_Name: RoadTile
+  m_Name: SnowTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 580dfc5da7d380e4cb43bb02ec9a96b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3247ca6bccb0ab4d9f39e63c9a8fcb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
