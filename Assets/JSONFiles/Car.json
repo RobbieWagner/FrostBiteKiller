@@ -1,0 +1,10 @@
+{
+    "dialogue":
+        {
+            "dialogueID" : 0,
+            "sentences" : [
+                {"textID":0, "text":"It's your car", "weakChoice":[{"choiceText":">","nextTextID":1}], "speaker":""},
+                {"textID":1, "text":"It doesn't seem to run", "weakChoice":[{"choiceText":">","nextTextID":2}], "speaker":""}
+            ]
+        }
+}
