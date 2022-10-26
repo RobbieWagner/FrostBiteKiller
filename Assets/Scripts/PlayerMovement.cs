@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     private float runSpeed = 5.0f;
+    float moveLimiter = 0.7f;
 
     [HideInInspector]
     public bool canMove;
@@ -49,13 +50,31 @@ public class PlayerMovement : MonoBehaviour
         if(canMove)
         {
             if(movement.x == 1)
-                gameObject.transform.rotation = Quaternion.Euler(0, 0, -90);
-            if(movement.x == -1)
-                gameObject.transform.rotation = Quaternion.Euler(0, 0, 90);
-            if(movement.y == 1)
+            {
+                if(movement.y == 1)gameObject.transform.rotation = Quaternion.Euler(0, 0, -45);
+                else if(movement.y == -1) gameObject.transform.rotation = Quaternion.Euler(0, 0, -135);
+                else gameObject.transform.rotation = Quaternion.Euler(0, 0, -90);
+            }
+            else if(movement.x == -1)
+            {
+                if(movement.y == 1)gameObject.transform.rotation = Quaternion.Euler(0, 0, 45);
+                else if(movement.y == -1) gameObject.transform.rotation = Quaternion.Euler(0, 0, 135);
+                else gameObject.transform.rotation = Quaternion.Euler(0, 0, 90);
+            }
+            else if(movement.y == 1)
+            {
                 gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
-            if(movement.y == -1)
+            }
+            else if(movement.y == -1)
+            {
                 gameObject.transform.rotation = Quaternion.Euler(0, 0, 180);
+            }
+
+            if(movement.x != 0 && movement.y != 0)
+            {
+                movement.x *= moveLimiter;
+                movement.y *= moveLimiter;
+            }
 
             body.MovePosition(body.position + movement * runSpeed * Time.fixedDeltaTime);
         }

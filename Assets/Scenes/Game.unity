@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -240,6 +244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &20785792 stripped
@@ -302,6 +310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &42015771 stripped
@@ -360,6 +372,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
       propertyPath: m_Name
       value: RoadTile1
@@ -483,6 +499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &52963549 stripped
@@ -549,6 +569,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &55844252 stripped
@@ -611,6 +635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &59125954 stripped
@@ -673,6 +701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &67858697 stripped
@@ -735,6 +767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &74722304 stripped
@@ -797,6 +833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &127594424 stripped
@@ -859,6 +899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &139136498 stripped
@@ -921,6 +965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &147635677 stripped
@@ -983,6 +1031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &162369957 stripped
@@ -1045,6 +1097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &174337767 stripped
@@ -1107,6 +1163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &185273198 stripped
@@ -1169,6 +1229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &198761466 stripped
@@ -1227,6 +1291,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
       propertyPath: m_Name
       value: RoadTile1
@@ -1293,6 +1361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &201958123 stripped
@@ -1355,6 +1427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &203672447 stripped
@@ -1362,6 +1438,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1908946907228983559, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
   m_PrefabInstance: {fileID: 203672446}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &207271157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 207271158}
+  - component: {fileID: 207271159}
+  m_Layer: 0
+  m_Name: Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &207271158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207271157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 519420032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &207271159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207271157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.75
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 10
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1001 &212319636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1417,6 +1565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &212319637 stripped
@@ -1475,6 +1627,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -1486,6 +1642,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8026960382858019929, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
   m_PrefabInstance: {fileID: 220060463}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &222306007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 222306008}
+  - component: {fileID: 222306009}
+  m_Layer: 0
+  m_Name: Point Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &222306008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222306007}
+  m_LocalRotation: {x: -0, y: -0, z: 0.008147373, w: 0.9999668}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1064727288}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &222306009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222306007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 5.130565
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1001 &222860976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1541,6 +1769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &222860977 stripped
@@ -1603,6 +1835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &223119172 stripped
@@ -1665,6 +1901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &234917877 stripped
@@ -1727,6 +1967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &240228032 stripped
@@ -1789,6 +2033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &261532023 stripped
@@ -1847,6 +2095,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -1909,6 +2161,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -1971,6 +2227,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -2037,6 +2297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &309753845 stripped
@@ -2099,6 +2363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &310681757 stripped
@@ -2161,6 +2429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &310770605 stripped
@@ -2219,6 +2491,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -2285,6 +2561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &328231120 stripped
@@ -2409,6 +2689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &352015573 stripped
@@ -2471,6 +2755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &358490003 stripped
@@ -2529,6 +2817,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -2595,6 +2887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &369452366 stripped
@@ -2657,6 +2953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &393768032 stripped
@@ -2719,6 +3019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &407560503 stripped
@@ -2777,6 +3081,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -2843,6 +3151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &414875642 stripped
@@ -2905,6 +3217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &419623768 stripped
@@ -2963,6 +3279,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -3029,6 +3349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &446718135 stripped
@@ -3091,6 +3415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &447017587 stripped
@@ -3153,6 +3481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &449958107 stripped
@@ -3215,6 +3547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &450784140 stripped
@@ -3273,6 +3609,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -3335,6 +3675,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -3401,6 +3745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &485727251 stripped
@@ -3463,6 +3811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &495289666 stripped
@@ -3525,6 +3877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &505804428 stripped
@@ -3543,6 +3899,9 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
+  - component: {fileID: 519420030}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3558,6 +3917,23 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 0}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3611,10 +3987,104 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9, y: -5.0625, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 207271158}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 519420032}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 23
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1001 &542165564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3670,6 +4140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &542165565 stripped
@@ -3728,11 +4202,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
       propertyPath: m_Name
       value: RoadTile1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
 --- !u!4 &547123663 stripped
 Transform:
@@ -3790,6 +4269,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -3856,6 +4339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &603742136 stripped
@@ -3922,6 +4409,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &617178141 stripped
@@ -3984,6 +4475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &617427765 stripped
@@ -4042,6 +4537,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
       propertyPath: m_Name
       value: RoadTile1
@@ -4104,6 +4603,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -4170,6 +4673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &640677109 stripped
@@ -4232,6 +4739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &641568416 stripped
@@ -4452,6 +4963,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -4518,6 +5033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &739928064 stripped
@@ -4580,6 +5099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &748349813 stripped
@@ -4638,6 +5161,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -4704,6 +5231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &758269602 stripped
@@ -4766,6 +5297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &801925996 stripped
@@ -4828,6 +5363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &813933771 stripped
@@ -4890,6 +5429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &834707541 stripped
@@ -4952,6 +5495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &840518962 stripped
@@ -5014,6 +5561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &851473020 stripped
@@ -5076,6 +5627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &855109890 stripped
@@ -5138,6 +5693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &863469711 stripped
@@ -5200,6 +5759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &864639837 stripped
@@ -5262,6 +5825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &903185699 stripped
@@ -5320,6 +5887,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -5386,6 +5957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &949183801 stripped
@@ -5444,6 +6019,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -5510,6 +6089,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &964939888 stripped
@@ -5572,6 +6155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1055520045 stripped
@@ -5620,7 +6207,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5662,7 +6249,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.85, y: -1.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 222306008}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5720,7 +6308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 1064727291}
   animator: {fileID: 1064727290}
-  runSpeed: 5
+  runSpeed: 3
   canMove: 0
 --- !u!58 &1064727293
 CircleCollider2D:
@@ -5805,6 +6393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1085884075 stripped
@@ -5863,6 +6455,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
       propertyPath: m_Name
       value: RoadTile1
@@ -5929,6 +6525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1104106301 stripped
@@ -5987,6 +6587,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -6053,6 +6657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1129583569 stripped
@@ -6115,6 +6723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1134275249 stripped
@@ -6173,6 +6785,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -6239,6 +6855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1158845630 stripped
@@ -6301,6 +6921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1170359232 stripped
@@ -6363,6 +6987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1174826576 stripped
@@ -6425,6 +7053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1183625293 stripped
@@ -6487,6 +7119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1199813021 stripped
@@ -6549,6 +7185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1202455584 stripped
@@ -6611,6 +7251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1203460782 stripped
@@ -6669,6 +7313,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -6735,6 +7383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1206036089 stripped
@@ -6797,6 +7449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1218785779 stripped
@@ -6859,6 +7515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1223275442 stripped
@@ -6921,6 +7581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1224745072 stripped
@@ -6983,6 +7647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1228571788 stripped
@@ -7045,6 +7713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1235960173 stripped
@@ -7107,6 +7779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1254083646 stripped
@@ -7231,6 +7907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1281732745 stripped
@@ -7293,6 +7973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1286899372 stripped
@@ -7351,6 +8035,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -7417,6 +8105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1305255686 stripped
@@ -7479,6 +8171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1313605182 stripped
@@ -7541,6 +8237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1315751219 stripped
@@ -7603,6 +8303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1322838013 stripped
@@ -7665,6 +8369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1329536232 stripped
@@ -7727,6 +8435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1383337819 stripped
@@ -7789,6 +8501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1392169835 stripped
@@ -7847,6 +8563,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -7913,6 +8633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1396657001 stripped
@@ -7975,6 +8699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1397429387 stripped
@@ -8037,6 +8765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1407398718 stripped
@@ -8095,6 +8827,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -8343,6 +9079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1468711154 stripped
@@ -8405,6 +9145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1483944211 stripped
@@ -8463,6 +9207,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -8529,6 +9277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1506537720 stripped
@@ -8591,6 +9343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1508482845 stripped
@@ -8653,6 +9409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1509015680 stripped
@@ -8715,6 +9475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1516017371 stripped
@@ -8777,6 +9541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1541085637 stripped
@@ -8839,6 +9607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1544019780 stripped
@@ -8901,6 +9673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1544649844 stripped
@@ -8915,6 +9691,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 690936760}
     m_Modifications:
+    - target: {fileID: 3555246895481204595, guid: 73da3e5e0cdf9d04589d24c92fd102ad, type: 3}
+      propertyPath: m_Size.x
+      value: 15.55
+      objectReference: {fileID: 0}
     - target: {fileID: 8026960382858019928, guid: 73da3e5e0cdf9d04589d24c92fd102ad, type: 3}
       propertyPath: m_Size.x
       value: 18
@@ -9037,6 +9817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1580841841 stripped
@@ -9099,6 +9883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1581858135 stripped
@@ -9157,6 +9945,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -9223,6 +10015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1601578802 stripped
@@ -9285,6 +10081,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1603156874 stripped
@@ -9347,6 +10147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1604042457 stripped
@@ -9405,6 +10209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
       propertyPath: m_Name
       value: RoadTile1
@@ -9471,6 +10279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1616103501 stripped
@@ -9533,6 +10345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1616245810 stripped
@@ -9591,6 +10407,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -9657,6 +10477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1643321506 stripped
@@ -9719,6 +10543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1654136569 stripped
@@ -9785,6 +10613,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1687910713 stripped
@@ -9847,6 +10679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1690780817 stripped
@@ -9905,7 +10741,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10027,6 +10863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1705713865 stripped
@@ -10089,6 +10929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1719809454 stripped
@@ -10151,6 +10995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1734189063 stripped
@@ -10209,6 +11057,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -10271,6 +11123,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -10337,6 +11193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1760363344 stripped
@@ -10399,6 +11259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1768321026 stripped
@@ -10461,6 +11325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1772572874 stripped
@@ -10523,6 +11391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1775687637 stripped
@@ -10585,6 +11457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1786885382 stripped
@@ -10647,6 +11523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1818030212 stripped
@@ -10705,6 +11585,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -10767,6 +11651,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -10829,6 +11717,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -10895,6 +11787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1846655676 stripped
@@ -10953,6 +11849,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -11019,6 +11919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &1857938650 stripped
@@ -11085,6 +11989,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1880006967 stripped
@@ -11147,6 +12055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1888260741 stripped
@@ -11209,6 +12121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &1911128814 stripped
@@ -11271,6 +12187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1935929787 stripped
@@ -11333,6 +12253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &1959972050 stripped
@@ -11395,6 +12319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &2001905791 stripped
@@ -11453,6 +12381,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -11519,6 +12451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &2042109050 stripped
@@ -11581,6 +12517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &2042673345 stripped
@@ -11643,6 +12583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &2043299009 stripped
@@ -11705,6 +12649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &2045872198 stripped
@@ -11767,6 +12715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &2052807993 stripped
@@ -11829,6 +12781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &2057867313 stripped
@@ -11891,6 +12847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56eefd683bb3380409e998866fa8e4f4, type: 3}
 --- !u!4 &2064909640 stripped
@@ -11953,6 +12913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &2080472141 stripped
@@ -12015,6 +12979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree2
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
 --- !u!4 &2100395342 stripped
@@ -12073,6 +13041,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1f27b3c252402f646961f4816119c20c, type: 3}
       propertyPath: m_Name
       value: SnowTile
@@ -12197,6 +13169,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8026960382858019930, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8026960382858019931, guid: 1a4f432b39e44cd4589ce0967bdb8bba, type: 3}
       propertyPath: m_Name
       value: RoadTile1
@@ -12263,6 +13239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6857574967592828570, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
 --- !u!4 &2127876521 stripped
