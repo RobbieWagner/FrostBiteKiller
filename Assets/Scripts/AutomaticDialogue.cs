@@ -20,7 +20,7 @@ public class AutomaticDialogue : Interactable
     private bool dialogueOnStart;
 
     [SerializeField]
-    private Collider[] triggers;
+    private Collider2D[] triggers;
 
     [SerializeField]
     private Animator[] speakerAnimators;
@@ -43,20 +43,20 @@ public class AutomaticDialogue : Interactable
 
     }
 
-    protected override void OnTriggerEnter(Collider collision)
+    protected override void OnTriggerEnter2D(Collider2D collision)
     {
         if(!hasInteracted)
         {
             hasInteracted = true;
             Interact();
-            foreach(Collider collider in triggers)
+            foreach(Collider2D collider in triggers)
             {
                 collider.enabled = false;
             }
         }
     }
 
-    protected override void OnTriggerExit(Collider collision)
+    protected override void OnTriggerExit2D(Collider2D collision)
     {
 
     }

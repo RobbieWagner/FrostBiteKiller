@@ -7,7 +7,7 @@ public class CameraGridFollow : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other) 
     {
-        Debug.Log("hello");
+        if(other.gameObject.tag.Equals("ScreenTile"))
         Camera.main.transform.position = new Vector3(other.transform.position.x, other.transform.position.y, -10);
     }
 }

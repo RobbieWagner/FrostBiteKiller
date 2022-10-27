@@ -20,24 +20,25 @@ public abstract class Interactable : MonoBehaviour
     }
 
     //Lets player interact when inside of trigger
-    protected virtual void OnTriggerEnter(Collider collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {   
         if(collision.gameObject.layer == LayerMask.NameToLayer("Player")) 
         {
+            Debug.Log("");
             playerCanInteract = true;
             player.canInteractWithObjects = true;
-            keyboardKey.SetActive(true);
+            //keyboardKey.SetActive(true);
         }
     }
 
     //prevents player interaction outside of trigger
-    protected virtual void OnTriggerExit(Collider collision)
+    protected virtual void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         { 
             playerCanInteract = false;
             player.canInteractWithObjects = false;
-            keyboardKey.SetActive(false);
+            //keyboardKey.SetActive(false);
         }
     }
 
