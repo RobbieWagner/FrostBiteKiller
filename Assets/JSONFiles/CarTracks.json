@@ -1,0 +1,10 @@
+{
+    "dialogue":
+        {
+            "dialogueID" : 0,
+            "sentences" : [
+                {"textID":0, "text":"There aren't a lot of car tracks.", "weakChoice":[{"choiceText":">","nextTextID":1}], "speaker":""},
+                {"textID":1, "text":"Not a lot of cars drive on this road. I might have to walk.", "weakChoice":[{"choiceText":">","nextTextID":2}], "speaker":""}
+            ]
+        }
+}

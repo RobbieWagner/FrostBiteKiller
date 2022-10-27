@@ -63,10 +63,19 @@ public class DialogueInteractable : Interactable
     [SerializeField]
     Dialogue dialogue = new Dialogue();
 
+    SpriteRenderer dialogueCue;
+    [SerializeField]
+    bool dialogueInteractabilityAlwaysShown;
+
     //Start is called before the first frame update
     protected void Start()
     {
         base.Start();
+
+        dialogueCue = gameObject.GetComponent<SpriteRenderer>();
+        if(dialogueCue != null) interactableCue = dialogueCue;
+        if(dialogueInteractabilityAlwaysShown) interactabilityAlwaysShown = true;
+
         playerCanInteract = false;
 
         dialogue = JsonUtility.FromJson<DialogueD>(textJSON.text).dialogue;

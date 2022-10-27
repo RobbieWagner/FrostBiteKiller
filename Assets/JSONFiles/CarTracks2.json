@@ -1,0 +1,10 @@
+{
+    "dialogue":
+        {
+            "dialogueID" : 0,
+            "sentences" : [
+                {"textID":0, "text":"I swerved my car out of the way of... something", "weakChoice":[{"choiceText":">","nextTextID":1}], "speaker":""},
+                {"textID":1, "text":"They don't seem to be around. Hope they're okay...", "weakChoice":[{"choiceText":">","nextTextID":2}], "speaker":""}
+            ]
+        }
+}

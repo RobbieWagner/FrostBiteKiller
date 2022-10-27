@@ -11,6 +11,9 @@ public abstract class Interactable : MonoBehaviour
     protected bool isInteracting;
     protected bool runningCooldown;
 
+    protected SpriteRenderer interactableCue;
+    protected bool interactabilityAlwaysShown = false;
+
     protected void Start() 
     {
         player = GameObject.Find("Player").GetComponent<Player>();
@@ -24,10 +27,8 @@ public abstract class Interactable : MonoBehaviour
     {   
         if(collision.gameObject.layer == LayerMask.NameToLayer("Player")) 
         {
-            Debug.Log("");
             playerCanInteract = true;
             player.canInteractWithObjects = true;
-            //keyboardKey.SetActive(true);
         }
     }
 
@@ -38,13 +39,17 @@ public abstract class Interactable : MonoBehaviour
         { 
             playerCanInteract = false;
             player.canInteractWithObjects = false;
-            //keyboardKey.SetActive(false);
         }
     }
 
     //checks for interaction
     protected virtual void Update()
     {
+        if(interactableCue != null && !interactableCue.enabled && playerCanInteract) interactableCue.enabled = true;
+        else if(interactableCue != null && interactableCue.enabled && !playerCanInteract) interactableCue.enabled = false;
+
+        if(interactableCue != null && interactabilityAlwaysShown) interactableCue.enabled = true;
+
         if(player.canInteractWithObjects && playerCanInteract && Input.GetKeyDown(KeyCode.K))
         {
             Interact();
