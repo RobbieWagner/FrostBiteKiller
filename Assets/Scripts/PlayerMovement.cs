@@ -20,6 +20,9 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public bool canMove;
 
+    [SerializeField]
+    private AudioSource playerFootstepSounds;
+
     void Start()
     {
         movement = new Vector2(0,0);
@@ -37,10 +40,12 @@ public class PlayerMovement : MonoBehaviour
             if(movement.x != 0 || movement.y != 0)
             {
                 animator.SetBool("moving", true);
+                if(!playerFootstepSounds.isPlaying) playerFootstepSounds.Play();
             }
             else
             {
                 animator.SetBool("moving", false);
+                if(playerFootstepSounds.isPlaying) playerFootstepSounds.Stop();
             }
         }
     }
