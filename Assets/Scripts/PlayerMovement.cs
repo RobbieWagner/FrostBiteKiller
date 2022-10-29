@@ -20,8 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public bool canMove;
 
-    [SerializeField]
-    private AudioSource playerFootstepSounds;
+    public AudioSource playerFootstepSounds;
 
     void Start()
     {
