@@ -11,7 +11,15 @@ public class Killer : MonoBehaviour
     public bool isPlayerCaught;
     private bool chasing;
 
-    private Transform player;
+    private bool canChase;
+    private bool waitingToChase;
+
+    [SerializeField]
+    private float turnTime;
+
+    private GameObject playerGO;
+    private PlayerMovement playerM;
+    private Transform playerT;
 
     [SerializeField]
     private float killerSpeed;
@@ -26,7 +34,12 @@ public class Killer : MonoBehaviour
         isPlayerCaught = false;
         chasing = false;
 
-        player = GameObject.Find("Player").transform;
+        playerGO = GameObject.Find("Player");
+        playerM = playerGO.GetComponent<PlayerMovement>();
+        playerT = playerGO.transform;
+
+        canChase = false;
+        waitingToChase = false;
     }
 
     // Update is called once per frame
@@ -34,9 +47,19 @@ public class Killer : MonoBehaviour
     {
         if(inSights && !isPlayerCaught)
         {
-            chasing = true;
-            transform.position = Vector3.MoveTowards(transform.position, player.position, killerSpeed * Time.fixedDeltaTime);
-            //transform.LookAt(player); only works 3d
+            if(!canChase && !waitingToChase)
+            {
+                waitingToChase = true;
+                StartCoroutine(NoticePlayer());
+            }
+            else if(canChase)
+            {
+                chasing = true;
+                transform.position = Vector3.MoveTowards(transform.position, playerT.position, killerSpeed * Time.fixedDeltaTime);
+                
+                Vector2 direction = playerT.position - transform.position;
+                transform.rotation = Quaternion.FromToRotation(Vector3.up, direction);
+            }
         }
         else chasing = false;
 
@@ -47,5 +70,20 @@ public class Killer : MonoBehaviour
     {
         if(other.gameObject.tag.Equals("Player"))
         isPlayerCaught = true;
+    }
+
+    private IEnumerator NoticePlayer()
+    {
+        playerM.canMove = false;
+        yield return new WaitForSeconds(turnTime);
+        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 90);
+        yield return new WaitForSeconds(turnTime);
+        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 90);
+        yield return new WaitForSeconds(turnTime);
+
+        canChase = true;
+        playerM.canMove = true;
+
+        StopCoroutine(NoticePlayer());
     }
 }
