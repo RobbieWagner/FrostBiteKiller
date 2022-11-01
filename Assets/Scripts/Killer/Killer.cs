@@ -9,7 +9,8 @@ public class Killer : MonoBehaviour
     public bool inSights;
     [HideInInspector]
     public bool isPlayerCaught;
-    private bool chasing;
+    [HideInInspector]
+    public bool chasing;
 
     private bool canChase;
     private bool waitingToChase;
@@ -20,6 +21,7 @@ public class Killer : MonoBehaviour
     private GameObject playerGO;
     private PlayerMovement playerM;
     private Transform playerT;
+    private Animator playerA;
 
     [SerializeField]
     private float killerSpeed;
@@ -37,6 +39,7 @@ public class Killer : MonoBehaviour
         playerGO = GameObject.Find("Player");
         playerM = playerGO.GetComponent<PlayerMovement>();
         playerT = playerGO.transform;
+        playerA = playerGO.GetComponent<Animator>();
 
         canChase = false;
         waitingToChase = false;
@@ -75,10 +78,13 @@ public class Killer : MonoBehaviour
     private IEnumerator NoticePlayer()
     {
         playerM.canMove = false;
+        playerT.position = new Vector3(playerT.position.x, playerT.position.y + 2, playerT.position.z);
+        playerA.SetBool("moving", false);
+        playerM.playerFootstepSounds.Stop();
         yield return new WaitForSeconds(turnTime);
-        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 90);
+        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 60);
         yield return new WaitForSeconds(turnTime);
-        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 90);
+        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 120);
         yield return new WaitForSeconds(turnTime);
 
         canChase = true;
