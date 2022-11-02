@@ -14530,6 +14530,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2912782677269566322, guid: d1f7dd7e38319214d91579afe484f7be, type: 3}
+      propertyPath: maxStamina
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912782677269566322, guid: d1f7dd7e38319214d91579afe484f7be, type: 3}
+      propertyPath: staminaGainRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912782677269566322, guid: d1f7dd7e38319214d91579afe484f7be, type: 3}
+      propertyPath: staminaLossRate
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912782677269566322, guid: d1f7dd7e38319214d91579afe484f7be, type: 3}
       propertyPath: playerFootstepSounds
       value: 
       objectReference: {fileID: 1268247913}

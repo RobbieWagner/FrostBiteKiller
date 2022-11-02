@@ -122,9 +122,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 2912782677269566325}
   animator: {fileID: 2912782677269566324}
-  runSpeed: 3
+  initialPlayerSpeed: 4
+  currentPlayerSpeed: 0
   canMove: 0
   playerFootstepSounds: {fileID: 0}
+  maxStamina: 0
+  staminaLossRate: 0
+  staminaGainRate: 0
 --- !u!50 &2912782677269566325
 Rigidbody2D:
   serializedVersion: 4

@@ -82,9 +82,9 @@ public class Killer : MonoBehaviour
         playerA.SetBool("moving", false);
         playerM.playerFootstepSounds.Stop();
         yield return new WaitForSeconds(turnTime);
-        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 60);
+        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 90);
         yield return new WaitForSeconds(turnTime);
-        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 120);
+        transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 180);
         yield return new WaitForSeconds(turnTime);
 
         canChase = true;
