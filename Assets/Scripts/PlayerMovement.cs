@@ -106,7 +106,6 @@ public class PlayerMovement : MonoBehaviour
 
             if(startsRunning && !running)
             {
-                Debug.Log("running");
                 currentPlayerSpeed = initialPlayerSpeed * 2.5f;
                 running = true;
                 startsRunning = false;

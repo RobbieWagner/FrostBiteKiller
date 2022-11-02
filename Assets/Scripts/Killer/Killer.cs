@@ -8,6 +8,8 @@ public class Killer : MonoBehaviour
     [HideInInspector]
     public bool inSights;
     [HideInInspector]
+    public bool canEnterSights;
+    [HideInInspector]
     public bool isPlayerCaught;
     [HideInInspector]
     public bool chasing;
@@ -33,6 +35,7 @@ public class Killer : MonoBehaviour
     void Start()
     {
         inSights = false;
+        canEnterSights = true;
         isPlayerCaught = false;
         chasing = false;
 
@@ -66,7 +69,11 @@ public class Killer : MonoBehaviour
         }
         else chasing = false;
 
-        if(chasing) killerAnimator.SetBool("chasing", true);
+        if(chasing)
+        {
+            canEnterSights = false;
+            killerAnimator.SetBool("chasing", true);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other) 
@@ -91,5 +98,16 @@ public class Killer : MonoBehaviour
         playerM.canMove = true;
 
         StopCoroutine(NoticePlayer());
+    }
+
+    public IEnumerator CooldownChase()
+    {
+        canEnterSights = false;
+
+        yield return new WaitForSeconds(2f);
+
+        canEnterSights = true;
+
+        StopCoroutine(CooldownChase());
     }
 }

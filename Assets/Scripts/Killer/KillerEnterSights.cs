@@ -12,7 +12,17 @@ public class KillerEnterSights : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag.Equals("Player"))
+        if(other.gameObject.tag.Equals("Player") && killer.canEnterSights)
+        {
+            killer.inSights = true;
+
+            StartCoroutine(PlayChaseMusic());
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other) 
+    {
+        if(!killer.inSights && other.gameObject.tag.Equals("Player") && killer.canEnterSights)
         {
             killer.inSights = true;
 

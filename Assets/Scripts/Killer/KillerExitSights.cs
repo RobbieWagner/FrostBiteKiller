@@ -17,6 +17,8 @@ public class KillerExitSights : MonoBehaviour
             killer.inSights = false;
 
             killerChaseMusic.Stop();
+
+            StartCoroutine(killer.CooldownChase());
         }
     }
 }
