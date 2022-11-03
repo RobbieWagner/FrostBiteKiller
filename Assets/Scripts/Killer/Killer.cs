@@ -31,6 +31,8 @@ public class Killer : MonoBehaviour
 
     [SerializeField]
     private float killerSpeed;
+    [SerializeField]
+    private Rigidbody2D killerRB2D;
 
     [SerializeField]
     private Animator killerAnimator;
@@ -70,10 +72,13 @@ public class Killer : MonoBehaviour
             else if(canChase)
             {
                 chasing = true;
-                transform.position = Vector3.MoveTowards(transform.position, playerT.position, killerSpeed * Time.fixedDeltaTime);
                 
-                Vector2 direction = playerT.position - transform.position;
-                transform.rotation = Quaternion.FromToRotation(Vector3.up, direction);
+                Vector2 lookDirection = playerT.position - transform.position;
+                transform.rotation = Quaternion.FromToRotation(Vector3.up, lookDirection);
+
+                Vector2 moveDirection = new Vector2(playerT.position.x - transform.position.x, playerT.position.y - transform.position.y);
+                moveDirection.Normalize();
+                killerRB2D.velocity = moveDirection * killerSpeed;
             }
         }
         else chasing = false;

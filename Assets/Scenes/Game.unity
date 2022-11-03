@@ -4618,6 +4618,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &574435098 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 422832053332004123, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+  m_PrefabInstance: {fileID: 4960588702363322033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &594005758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14777,7 +14782,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 422832053332004123, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
       propertyPath: m_BodyType
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422832053332004123, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422832053332004123, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4960588701225560129, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
       propertyPath: m_Size.x
@@ -14843,6 +14856,10 @@ PrefabInstance:
       propertyPath: turnTime
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8638300276746369003, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+      propertyPath: killerRB2D
+      value: 
+      objectReference: {fileID: 574435098}
     - target: {fileID: 8638300276746369003, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
       propertyPath: runTutorial
       value: 
