@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killer: {fileID: 8638300276746369003}
+  killerChaseMusic: {fileID: 0}
 --- !u!1 &4960588701858245033
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,6 +211,7 @@ GameObject:
   - component: {fileID: 4960588701858245032}
   - component: {fileID: 4960588701858245034}
   - component: {fileID: 8638300276746369003}
+  - component: {fileID: 422832053332004123}
   m_Layer: 0
   m_Name: Killer
   m_TagString: Untagged
@@ -314,10 +316,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inSights: 0
+  canEnterSights: 0
   isPlayerCaught: 0
+  chasing: 0
+  runTutorial: {fileID: 0}
   turnTime: 0
   killerSpeed: 4
   killerAnimator: {fileID: 0}
+  invisibleBounds1: {fileID: 0}
+--- !u!50 &422832053332004123
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4960588701858245033}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4960588702312106206
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,3 +416,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killer: {fileID: 8638300276746369003}
+  killerChaseMusic: {fileID: 0}

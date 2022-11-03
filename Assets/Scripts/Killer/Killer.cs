@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Killer : MonoBehaviour
 {
-
     [HideInInspector]
     public bool inSights;
     [HideInInspector]
@@ -16,6 +16,10 @@ public class Killer : MonoBehaviour
 
     private bool canChase;
     private bool waitingToChase;
+
+    private TutorialCanvas tutorialC;
+    [SerializeField]
+    private Tutorial runTutorial;
 
     [SerializeField]
     private float turnTime;
@@ -30,6 +34,9 @@ public class Killer : MonoBehaviour
 
     [SerializeField]
     private Animator killerAnimator;
+
+    [SerializeField]
+    private GameObject invisibleBounds1;
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +53,8 @@ public class Killer : MonoBehaviour
 
         canChase = false;
         waitingToChase = false;
+
+        tutorialC = GameObject.Find("TutorialCanvas").GetComponent<TutorialCanvas>();
     }
 
     // Update is called once per frame
@@ -92,16 +101,24 @@ public class Killer : MonoBehaviour
         transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 90);
         yield return new WaitForSeconds(turnTime);
         transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 180);
+        tutorialC.tmproText.text = runTutorial.GetText();
         yield return new WaitForSeconds(turnTime);
 
         canChase = true;
         playerM.canMove = true;
+
+        if(invisibleBounds1.activeInHierarchy)
+        {
+            invisibleBounds1.SetActive(false);
+        }
 
         StopCoroutine(NoticePlayer());
     }
 
     public IEnumerator CooldownChase()
     {
+        if(tutorialC.tmproText.text.Equals(runTutorial.GetText())) tutorialC.tmproText.text = "";
+
         canEnterSights = false;
 
         yield return new WaitForSeconds(2f);
