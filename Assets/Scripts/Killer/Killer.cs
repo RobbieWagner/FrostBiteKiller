@@ -33,7 +33,7 @@ public class Killer : MonoBehaviour
     [SerializeField]
     private float killerSpeed;
     [SerializeField]
-    private Rigidbody2D killerRB2D;
+    private NavMeshAgent killerNVA;
 
     [SerializeField]
     private Animator killerAnimator;
@@ -57,6 +57,10 @@ public class Killer : MonoBehaviour
         canChase = false;
         waitingToChase = false;
 
+        killerNVA.updateRotation = false;
+        killerNVA.updateUpAxis = false;
+        killerNVA.speed = killerSpeed;
+
         tutorialC = GameObject.Find("TutorialCanvas").GetComponent<TutorialCanvas>();
     }
 
@@ -76,10 +80,7 @@ public class Killer : MonoBehaviour
                 
                 Vector2 lookDirection = playerT.position - transform.position;
                 transform.rotation = Quaternion.FromToRotation(Vector3.up, lookDirection);
-
-                Vector2 moveDirection = new Vector2(playerT.position.x - transform.position.x, playerT.position.y - transform.position.y);
-                moveDirection.Normalize();
-                killerRB2D.velocity = moveDirection * killerSpeed;
+                killerNVA.SetDestination(playerT.position);
             }
         }
         else chasing = false;

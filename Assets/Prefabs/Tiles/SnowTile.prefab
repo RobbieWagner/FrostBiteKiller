@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8026960382858019929}
   - component: {fileID: 8026960382858019930}
   - component: {fileID: 8026960382858019928}
-  - component: {fileID: 3555246895481204595}
+  - component: {fileID: 5708546471549704883}
+  - component: {fileID: 5099995679969193118}
   m_Layer: 0
-  m_Name: CarCrashTile
+  m_Name: SnowTile
   m_TagString: ScreenTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a24f8f2a00f80ee44bdbd4ac02a924aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3247ca6bccb0ab4d9f39e63c9a8fcb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -110,7 +111,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 18, y: 10.125}
   m_EdgeRadius: 0
---- !u!61 &3555246895481204595
+--- !u!61 &5708546471549704883
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,3 +137,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 14, y: 7.875}
   m_EdgeRadius: 0
+--- !u!114 &5099995679969193118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026960382858019931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
