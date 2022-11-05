@@ -93,18 +93,6 @@ public class DialogueInteractable : Interactable
     {
         base.Update();
 
-        if(player.canInteractWithObjects && playerCanInteract && Input.GetKeyDown(KeyCode.K))
-        {
-            playerCanInteract = false;
-            isInteracting = true;
-            Interact();
-        }
-
-        if(isInteracting && !runningCooldown)
-        {
-            StartCoroutine(CoolDownInteraction());
-        }
-
         if(isInteracting && !dialogueM.textBoxC.enabled)
         {
             isInteracting = false;

@@ -7,6 +7,7 @@ public abstract class Interactable : MonoBehaviour
 {
     protected GameObject keyboardKey;
     protected Player player;
+    protected bool playerNearby;
     protected bool playerCanInteract;
     protected bool isInteracting;
     protected bool runningCooldown;
@@ -17,6 +18,7 @@ public abstract class Interactable : MonoBehaviour
     protected void Start() 
     {
         player = GameObject.Find("Player").GetComponent<Player>();
+        playerNearby = false;
         playerCanInteract = false;
         isInteracting = false;
         runningCooldown = false;
@@ -29,6 +31,7 @@ public abstract class Interactable : MonoBehaviour
         {
             playerCanInteract = true;
             player.canInteractWithObjects = true;
+            playerNearby = true;
         }
     }
 
@@ -39,6 +42,7 @@ public abstract class Interactable : MonoBehaviour
         { 
             playerCanInteract = false;
             player.canInteractWithObjects = false;
+            playerNearby = false;
         }
     }
 
@@ -88,9 +92,10 @@ public abstract class Interactable : MonoBehaviour
         while(isInteracting) yield return null;
 
         yield return new WaitForSeconds(.4f);
-        playerCanInteract = true;
 
         runningCooldown = false;
+        
+        if(playerNearby) playerCanInteract = true;
 
         StopCoroutine(CoolDownInteraction());
     }
