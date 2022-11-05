@@ -6324,6 +6324,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1908946907228983559, guid: 3a0c8b7a894594e4cb326636ba224abb, type: 3}
   m_PrefabInstance: {fileID: 864639836}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &894695887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5820175298511037659, guid: 8a2aa26114a4f4d46a6c359c6e62d275, type: 3}
+  m_PrefabInstance: {fileID: 5820175298773368449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &894695888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894695887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bf2a7cd4260638449aaceb0aebdd959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorialText: Press K to interact
+  wasDisplayed: 0
+--- !u!114 &894695889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894695887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c5e973ed59a3749a463cb421132239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runTutorial: {fileID: 894695888}
 --- !u!1001 &903185698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15003,6 +15035,10 @@ PrefabInstance:
       propertyPath: textJSON
       value: 
       objectReference: {fileID: 4900000, guid: 8674df2330931904898cb99d7fabfd11, type: 3}
+    - target: {fileID: 2427223362888981347, guid: 8a2aa26114a4f4d46a6c359c6e62d275, type: 3}
+      propertyPath: dialogueInteractabilityAlwaysShown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5820175298511037659, guid: 8a2aa26114a4f4d46a6c359c6e62d275, type: 3}
       propertyPath: m_Name
       value: InteractableCue

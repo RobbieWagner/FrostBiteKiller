@@ -85,6 +85,7 @@ public class DialogueInteractable : Interactable
 
     protected override void Interact()
     {
+        base.Interact();
         dialogueM.StartDialogue(dialogue);
     }
 
