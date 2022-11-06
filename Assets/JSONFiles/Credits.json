@@ -1,0 +1,9 @@
+{
+    "creditLine":
+    [
+        {"credit":"Game Developed using Unity"},
+        {"credit":"Sprites Created using Aseprite"},
+        {"credit":"Music Created using Bandlab"},
+        {"credit":"Footstep Sounds from Soundajay"}
+    ]
+}
