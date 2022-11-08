@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Killer : MonoBehaviour
@@ -41,6 +42,9 @@ public class Killer : MonoBehaviour
     [SerializeField]
     private GameObject invisibleBounds1;
 
+    [SerializeField]
+    private Canvas deathScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,6 +66,8 @@ public class Killer : MonoBehaviour
         killerNVA.speed = killerSpeed;
 
         tutorialC = GameObject.Find("TutorialCanvas").GetComponent<TutorialCanvas>();
+
+        deathScreen.enabled = false;
     }
 
     // Update is called once per frame
@@ -95,7 +101,28 @@ public class Killer : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other) 
     {
         if(other.gameObject.tag.Equals("Player"))
-        isPlayerCaught = true;
+        {
+            isPlayerCaught = true;
+            canChase = false;
+            killerAnimator.SetBool("chasing", false);
+            playerA.SetBool("moving", false);
+            StartCoroutine(KillPlayer());
+        }
+    }
+
+    private IEnumerator KillPlayer()
+    {
+        killerNVA.speed = 0;
+        Camera.main.transform.position = new Vector3(playerT.position.x, playerT.position.y, -10);
+        playerM.canMove = false;
+        yield return new WaitForSeconds(.1f);
+        killerAnimator.SetBool("killing", true);
+        yield return new WaitForSeconds(.5f);
+        deathScreen.enabled = true;
+        yield return new WaitForSeconds(2.5f);
+        SceneManager.LoadScene("Menu");
+
+        StopCoroutine(KillPlayer());
     }
 
     private IEnumerator NoticePlayer()
