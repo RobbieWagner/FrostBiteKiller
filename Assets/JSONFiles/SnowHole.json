@@ -1,0 +1,9 @@
+{
+    "dialogue":
+        {
+            "dialogueID" : 0,
+            "sentences" : [
+                {"textID":0, "text":"There's a hole here. Looks like someone fell.", "weakChoice":[{"choiceText":">","nextTextID":1}], "speaker":""}
+            ]
+        }
+}

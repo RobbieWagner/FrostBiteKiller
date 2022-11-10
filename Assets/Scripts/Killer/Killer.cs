@@ -38,6 +38,8 @@ public class Killer : MonoBehaviour
 
     [SerializeField]
     private Animator killerAnimator;
+    [SerializeField]
+    private Animator bloodA;
 
     [SerializeField]
     private GameObject invisibleBounds1;
@@ -130,6 +132,7 @@ public class Killer : MonoBehaviour
         playerM.canMove = false;
         playerT.position = new Vector3(playerT.position.x, playerT.position.y + 2, playerT.position.z);
         playerA.SetBool("moving", false);
+        bloodA.SetBool("bleed", true);
         playerM.playerFootstepSounds.Stop();
         yield return new WaitForSeconds(turnTime);
         transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 90);

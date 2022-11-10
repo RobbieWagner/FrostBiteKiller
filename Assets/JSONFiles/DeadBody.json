@@ -1,0 +1,12 @@
+{
+    "dialogue":
+        {
+            "dialogueID" : 0,
+            "sentences" : [
+                {"textID":0, "text":"This is a horrible sight.", "weakChoice":[{"choiceText":">","nextTextID":1}], "speaker":""},
+                {"textID":1, "text":"Who even was this person? There's no ID on them or anything.", "weakChoice":[{"choiceText":">","nextTextID":2}], "speaker":""},
+                {"textID":2, "text":"I'm sorry it ended this way for you.", "weakChoice":[{"choiceText":">","nextTextID":3}], "speaker":""},
+                {"textID":3, "text":"There's no time for a proper burial. I gotta keep moving.", "weakChoice":[{"choiceText":">","nextTextID":4}], "speaker":""}
+            ]
+        }
+}

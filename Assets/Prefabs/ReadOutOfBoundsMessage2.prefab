@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6927053226357856208}
   - component: {fileID: 6935291715958246377}
   m_Layer: 0
-  m_Name: ReadOutOfBoundsMessage
+  m_Name: ReadOutOfBoundsMessage2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f5cb8d7bdd504f45b8ee89badafb6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textJSON: {fileID: 4900000, guid: 9f76951e2e251d443a1b5eee76fb39af, type: 3}
+  textJSON: {fileID: 4900000, guid: 5ea8eecae803a514bb62eb125712634d, type: 3}
   dialogueManager: {fileID: 0}
 --- !u!61 &6927053226357856208
 BoxCollider2D:
