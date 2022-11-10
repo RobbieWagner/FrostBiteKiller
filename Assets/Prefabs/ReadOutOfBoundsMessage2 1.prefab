@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6927053226357856208}
   - component: {fileID: 6935291715958246377}
   m_Layer: 0
-  m_Name: ReadOutOfBoundsMessage2
+  m_Name: ReadOutOfBoundsMessage2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
