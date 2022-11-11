@@ -163,37 +163,6 @@ public class DialogueManager : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(buttons[0]);
     }
 
-    // void GrantStrongChoice(int numberOfChoices, StrongChoice[] strongChoice)
-    // {
-    //     if(numberOfChoices == 1 && strongChoice[0].choiceText.Equals(""))
-    //     {
-    //         EndDialogue();
-    //     }
-
-    //     foreach(GameObject button in buttons) if(button != null) Destroy(button);
-    //     buttons = new GameObject[numberOfChoices];
-    //     buttonsText = new TextMeshProUGUI[numberOfChoices];
-    //     for(int i = 0; i < numberOfChoices; i++)
-    //     {
-    //         buttons[i] = Instantiate(strongChoiceButton) as GameObject;
-
-    //         Button button = buttons[i].GetComponent<Button>();
-    //         buttons[i].transform.SetParent(textBoxC.gameObject.transform, false);
-    //         float numberOfChoicesF = (float) numberOfChoices;
-    //         buttons[i].transform.position = new Vector3(Screen.width/2 + ((i - ((numberOfChoicesF-1)/2)) * (Screen.width/4 + 5)), Screen.height/3 * 2, 0);
-    //         buttonsText[i] = buttons[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-    //         buttonsText[i].text = strongChoice[i].choiceText;
-    //         int strongChoiceID = i;
-    //         button.onClick.AddListener(delegate{StrongChoiceMade(strongChoice[strongChoiceID].nextDialogueID, strongChoice[strongChoiceID].lastingImpact);});
-    //     }
-
-    // }
-
-    // public void StrongChoiceMade(int nextDialogueID, string lastingImpact)
-    // {
-    //     if (lastingImpact != null) lastingImpacts.Add(lastingImpact);
-    // }
-
     private void EndDialogue()
     {
         playerM.canMove = true;

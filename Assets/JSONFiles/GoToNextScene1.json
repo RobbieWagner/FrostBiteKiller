@@ -4,7 +4,7 @@
             "dialogueID" : 0,
             "sentences" : [
                 {"textID":0, "text":"If you leave this area, you can't come back", "weakChoice":[{"choiceText":">","nextTextID":1}], "speaker":""},
-                {"textID":1, "text":"Are you sure you'd like to leave?", "weakChoice":[{"choiceText":">","nextTextID":2}], "speaker":""}
+                {"textID":1, "text":"Proceed if you'd like to leave", "weakChoice":[{"choiceText":">","nextTextID":2}], "speaker":""}
             ]
         }
 }

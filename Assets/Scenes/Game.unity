@@ -17123,6 +17123,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 348018003}
     m_Modifications:
+    - target: {fileID: 83868810875563205, guid: db44d780e78b7af43a4836d190648fc9, type: 3}
+      propertyPath: textJSON
+      value: 
+      objectReference: {fileID: 4900000, guid: 0f55ca958435f9e46aeae71b3fe0f7b8, type: 3}
     - target: {fileID: 2814057766211604991, guid: db44d780e78b7af43a4836d190648fc9, type: 3}
       propertyPath: m_Name
       value: GoToNextScene1
