@@ -174,4 +174,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c49879be79e1d7429e36d5bcf9dcb75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToName: Menu
+  sceneToName: GameOutro
