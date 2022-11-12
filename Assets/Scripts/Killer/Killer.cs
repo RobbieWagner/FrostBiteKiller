@@ -15,6 +15,21 @@ public class Killer : MonoBehaviour
     public bool isPlayerCaught;
     [HideInInspector]
     public bool chasing;
+    [HideInInspector]
+    public bool playerNoticed;
+    [HideInInspector]
+    private bool pathSet;
+
+    [SerializeField]
+    private RND random;
+    [SerializeField]
+    private int yMin;
+    [SerializeField]
+    private int yMax;
+    [SerializeField]
+    private int xMin;
+    [SerializeField]
+    private int xMax;
 
     private bool canChase;
     private bool waitingToChase;
@@ -70,6 +85,8 @@ public class Killer : MonoBehaviour
         tutorialC = GameObject.Find("TutorialCanvas").GetComponent<TutorialCanvas>();
 
         deathScreen.enabled = false;
+
+        pathSet = false;
     }
 
     // Update is called once per frame
@@ -91,7 +108,25 @@ public class Killer : MonoBehaviour
                 killerNVA.SetDestination(playerT.position);
             }
         }
-        else chasing = false;
+        else if(playerNoticed && !waitingToChase && !canChase)
+        {
+            FollowPath();
+
+            if (!killerNVA.pathPending)
+            {
+                if (killerNVA.remainingDistance <= killerNVA.stoppingDistance)
+                {
+                    if (!killerNVA.hasPath || killerNVA.velocity.sqrMagnitude == 0f)
+                    {
+                        pathSet = false;
+                    }
+                }
+            }
+        }
+        else
+        {
+            chasing = false;
+        }
 
         if(chasing)
         {
@@ -109,6 +144,17 @@ public class Killer : MonoBehaviour
             killerAnimator.SetBool("chasing", false);
             playerA.SetBool("moving", false);
             StartCoroutine(KillPlayer());
+        }
+    }
+
+    private void FollowPath()
+    {
+        if(!pathSet)
+        {
+            float nextYPath = random.rnd.Next(yMin, yMax);
+            float nextXPath = random.rnd.Next(xMin, xMax);
+            
+            pathSet = killerNVA.SetDestination(new Vector3(nextXPath, nextYPath, 0));
         }
     }
 
@@ -148,6 +194,8 @@ public class Killer : MonoBehaviour
         {
             invisibleBounds1.SetActive(false);
         }
+
+        playerNoticed = true;
 
         StopCoroutine(NoticePlayer());
     }
