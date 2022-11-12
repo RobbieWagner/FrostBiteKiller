@@ -8868,6 +8868,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &574435098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8638300276746369003, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+  m_PrefabInstance: {fileID: 4960588702363322033}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574435096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522fd601f8f56b0469508d937310ee3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!195 &574435099
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12018,6 +12029,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.084905684
       objectReference: {fileID: 0}
+    - target: {fileID: 546861903725877671, guid: db908824c5cc19045bf9adc8ffa939b0, type: 3}
+      propertyPath: killer
+      value: 
+      objectReference: {fileID: 574435098}
     - target: {fileID: 546861903725877671, guid: db908824c5cc19045bf9adc8ffa939b0, type: 3}
       propertyPath: player
       value: 
@@ -25454,6 +25469,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1908946907228983559, guid: 99d5b66d206474b419ca4161892dc75f, type: 3}
   m_PrefabInstance: {fileID: 2100395341}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2100745573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2100745574}
+  m_Layer: 0
+  m_Name: KillerGoal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2100745574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100745573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2103730730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25959,6 +26004,10 @@ PrefabInstance:
       propertyPath: killerChaseMusic
       value: 
       objectReference: {fileID: 4960588702363322034}
+    - target: {fileID: 8638300276746369003, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+      propertyPath: goal
+      value: 
+      objectReference: {fileID: 2100745574}
     - target: {fileID: 8638300276746369003, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
       propertyPath: xMax
       value: 40

@@ -45,6 +45,10 @@ public class DialogueManager : MonoBehaviour
 
     Button currentButton;
 
+    //used to stop killer during dialogue
+    [SerializeField]
+    private Killer killer;
+
     void Start()
     {
         blinkIcon.enabled = false;
@@ -91,6 +95,7 @@ public class DialogueManager : MonoBehaviour
         
             sentences = new List<DialogueInteractable.Sentence>();
             playerM.canMove = false;
+            killer.ToggleKillerMovement(true);
 
             textBoxC.enabled = true;
             
@@ -166,6 +171,8 @@ public class DialogueManager : MonoBehaviour
     private void EndDialogue()
     {
         playerM.canMove = true;
+        killer.ToggleKillerMovement(false);
+
         dialogueRunning = false;
         textBoxC.enabled = false;
         EventSystem.current.SetSelectedGameObject(null);

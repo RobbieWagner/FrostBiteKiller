@@ -20,6 +20,9 @@ public class Killer : MonoBehaviour
     [HideInInspector]
     private bool pathSet;
 
+
+    [SerializeField]
+    private Transform goal;
     [SerializeField]
     private RND random;
     [SerializeField]
@@ -92,6 +95,7 @@ public class Killer : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+
         if(inSights && !isPlayerCaught)
         {
             if(!canChase && !waitingToChase)
@@ -107,8 +111,9 @@ public class Killer : MonoBehaviour
                 transform.rotation = Quaternion.FromToRotation(Vector3.up, lookDirection);
                 killerNVA.SetDestination(playerT.position);
             }
+            //else Debug.Log(playerNoticed + " " + waitingToChase + " " + canChase);
         }
-        else if(playerNoticed && !waitingToChase && !canChase)
+        else if(playerNoticed && !waitingToChase && !chasing)
         {
             FollowPath();
 
@@ -153,8 +158,21 @@ public class Killer : MonoBehaviour
         {
             float nextYPath = random.rnd.Next(yMin, yMax);
             float nextXPath = random.rnd.Next(xMin, xMax);
+            goal.position = new Vector3(nextXPath, nextYPath, 0);
             
-            pathSet = killerNVA.SetDestination(new Vector3(nextXPath, nextYPath, 0));
+            pathSet = killerNVA.SetDestination(goal.position);
+        }
+    }
+
+    public void ToggleKillerMovement(bool stop)
+    {
+        if(stop)
+        {
+            killerNVA.speed = 0;
+        }
+        else
+        {
+            killerNVA.speed = killerSpeed;
         }
     }
 
@@ -196,6 +214,7 @@ public class Killer : MonoBehaviour
         }
 
         playerNoticed = true;
+        waitingToChase = false;
 
         StopCoroutine(NoticePlayer());
     }
