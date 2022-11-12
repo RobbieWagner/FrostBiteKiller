@@ -9,6 +9,8 @@ public class KillerExitSights : MonoBehaviour
 
     [SerializeField]
     private AudioSource killerChaseMusic;
+    [SerializeField]
+    private AudioSource killerAroundMusic;
 
     void OnTriggerExit2D(Collider2D other)
     {
@@ -17,6 +19,7 @@ public class KillerExitSights : MonoBehaviour
             killer.inSights = false;
 
             killerChaseMusic.Stop();
+            killerAroundMusic.Play();
 
             StartCoroutine(killer.CooldownChase());
         }

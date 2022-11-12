@@ -25940,6 +25940,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 706430407079105758, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 706430407079105758, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4960588701225560129, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
       propertyPath: m_Size.x
       value: 20
@@ -25996,14 +26004,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7366933302399033424, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
-      propertyPath: killerChaseMusic
-      value: 
-      objectReference: {fileID: 4960588702363322034}
-    - target: {fileID: 8152098526042418378, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
-      propertyPath: killerChaseMusic
-      value: 
-      objectReference: {fileID: 4960588702363322034}
     - target: {fileID: 8638300276746369003, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
       propertyPath: goal
       value: 
@@ -26064,13 +26064,12 @@ PrefabInstance:
       propertyPath: invisibleBounds1
       value: 
       objectReference: {fileID: 1215882020}
+    - target: {fileID: 8734815857512459027, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
+      propertyPath: rolloffMode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
---- !u!82 &4960588702363322034 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8734815857512459027, guid: 29b63cb0ebd1bad4599f2acc352a81a2, type: 3}
-  m_PrefabInstance: {fileID: 4960588702363322033}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5820175298773368449
 PrefabInstance:
   m_ObjectHideFlags: 0

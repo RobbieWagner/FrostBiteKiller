@@ -9,6 +9,8 @@ public class KillerEnterSights : MonoBehaviour
 
     [SerializeField]
     private AudioSource killerChaseMusic;
+    [SerializeField]
+    private AudioSource killerAroundMusic;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -35,6 +37,7 @@ public class KillerEnterSights : MonoBehaviour
         while(!killer.chasing) yield return null;
 
         killerChaseMusic.Play();
+        killerAroundMusic.Stop();
         StopCoroutine(PlayChaseMusic());
     }
 }
